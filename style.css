@@ -1,0 +1,32 @@
+.main-contianer {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+}
+
+#gen-meta-btn {
+    height: 55px;
+    width: 350px;
+    background: tomato;
+    color: white;
+    box-shadow: 4px 3px 2px 0px rgba(0, 0, 0, 0.2);
+    outline: 0;
+    border: 0;
+    border-radius: 6px;
+    font-size: 25px;
+}
+
+.meta-box {
+	font-style: 35px;
+	font-family: 'Charmonman', cursive;
+}
