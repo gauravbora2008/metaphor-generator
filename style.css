@@ -24,9 +24,14 @@
     border: 0;
     border-radius: 6px;
     font-size: 25px;
+    cursor: pointer;
 }
 
 .meta-box {
 	font-style: 35px;
 	font-family: 'Charmonman', cursive;
+}
+
+.intro-text {
+    max-width: 350px;
 }
