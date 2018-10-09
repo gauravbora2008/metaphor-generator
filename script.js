@@ -1,12 +1,12 @@
 var request = new XMLHttpRequest();
-   request.open("GET", "nouns.json", false);
-   request.send(null)
+   request.open("GET", "nouns_hindi.json", false);
+   request.send(null);
    var nounsList = JSON.parse(request.responseText);
    // console.log(my_JSON_object);
 
 var request = new XMLHttpRequest();
-   request.open("GET", "verbs.json", false);
-   request.send(null)
+   request.open("GET", "verbs_hindi.json", false);
+   request.send(null);
    var verbsList = JSON.parse(request.responseText);
    // console.log(my_JSON_object_2);
 
@@ -18,6 +18,6 @@ function genMeta() {
 	updateMeta(meta_1, meta_2);
 }
 
-function updateMeta(meta2, meta1) {
+function updateMeta(meta1, meta2) {
 	document.getElementsByClassName("meta-box")[0].innerHTML = meta2 + " " + meta1;
 }

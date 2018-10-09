@@ -1,6 +1,4 @@
-{
-    "description": "A list of English verbs.",
-    "verbs": [
+{    
         "accept",
         "accepted",
         "add",
@@ -1267,5 +1265,4 @@
         "zipped",
         "zoom",
         "zoomed"
-    ]
 }
